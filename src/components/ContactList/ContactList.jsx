@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { getVisibleContacts } from 'redux/contacts/contacts-selector';
+import { getVisibleContacts } from 'redux/contacts/contacts-selectors';
 import contactsOperations from 'redux/contacts/contacts-operations';
 import s from './ContactList.module.css';
 

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getLoading } from 'redux/contacts/contacts-selector';
+import { getLoading } from 'redux/contacts/contacts-selectors';
 import contactsOperations from 'redux/contacts/contacts-operations';
 import Container from 'components/Container/Container';
 import Section from 'components/Section/Section';
